@@ -4,12 +4,12 @@ if year % 4 == 0:
     if year % 100 == 0:
 
         if year % 400 == 0:
-           print(f"Leap year.") 
+           print(f"The year {year} is a leap year.") 
         else:
-            print(f"Not leap year.")   
+            print(f"The year {year} is not leap year.")   
                     
     else:
-        print(f"Leap year.")     
+        print(f"The year {year} is a leap year.")      
 
 else:
-    print(f"Not leap year.")
+    print(f"The year {year} is not leap year.") 
